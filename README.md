@@ -159,34 +159,36 @@ This implementation follows the **zero-cost constraint**.
 
 ---
 
-# Repository Structure
+## Repository Structure
+
+```text
 .
 ├── workflows
-│ └── n8n_workflow.json
+│   └── n8n_workflow.json
 │
 ├── outputs
-│ └── accounts
-│ └── <account_id>
-│ ├── v1
-│ │ ├── account_memo.json
-│ │ └── agent_spec.json
-│ │
-│ └── v2
-│ ├── account_memo.json
-│ └── agent_spec.json
+│   └── accounts
+│       └── <account_id>
+│           ├── v1
+│           │   ├── account_memo.json
+│           │   └── agent_spec.json
+│           │
+│           └── v2
+│               ├── account_memo.json
+│               └── agent_spec.json
 │
 ├── changelog
-│ └── <account_id>_changes.json
+│   └── <account_id>_changes.json
 │
 ├── dataset
-│ ├── demo_calls
-│ └── onboarding_calls
+│   ├── demo_calls
+│   └── onboarding_calls
 │
 ├── scripts
-│ └── helper_scripts.js
+│   └── helper_scripts.js
 │
 └── README.md
-
+```
 
 ---
 
