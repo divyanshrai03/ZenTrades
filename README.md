@@ -2,6 +2,8 @@
 ## Zero-Cost Automation Pipeline  
 **Demo Call → Retell Agent Draft → Onboarding Update → Agent Revision**
 
+## Loom Video Link - https://www.loom.com/share/69b97c7b7aa341db8a402e4f727af0d5
+
 ---
 
 # Project Overview
