@@ -1,0 +1,37 @@
+{
+  "account_id": "acc_001",
+  "company_name": "ABC Fire Protection.",
+  "business_hours": {
+    "days": [],
+    "start": "00am",
+    "end": "8am",
+    "timezone": ""
+  },
+  "office_address": "17119 Sundown Road, Southeast Calgary, Alberta.",
+  "services_supported": [],
+  "emergency_definition": [
+    "sprinkler leak",
+    "fire alarm triggered"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "",
+    "secondary_contact": "",
+    "fallback_action": ""
+  },
+  "non_emergency_routing_rules": {
+    "during_business_hours": "",
+    "after_hours": ""
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": "",
+    "retry_attempts": "",
+    "transfer_fail_message": ""
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [
+    "Company name not mentioned"
+  ],
+  "notes": "Extracted automatically from demo transcript"
+}

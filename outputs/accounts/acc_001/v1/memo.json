@@ -1,0 +1,36 @@
+{
+  "account_id": "ben-electric-001",
+  "company_name": "Ben's Electric Solutions",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "08:00",
+    "end": "17:00",
+    "timezone": "CST"
+  },
+  "office_address": "Dallas, Texas",
+  "services_supported": [
+    "EV charger installation",
+    "Electrical troubleshooting",
+    "Outlet replacement"
+  ],
+  "emergency_definition": [
+    "power outage",
+    "sparking wires",
+    "electrical burning smell"
+  ],
+  "emergency_routing_rules": {
+    "primary_contact": "Ben",
+    "fallback_contact": "Lead Technician"
+  },
+  "non_emergency_routing_rules": "Schedule appointment during business hours",
+  "call_transfer_rules": {
+    "timeout_seconds": 20,
+    "retry_attempts": 2,
+    "fallback_message": "Our team is currently unavailable. Please leave a message."
+  },
+  "integration_constraints": "Do not create EV installation jobs automatically",
+  "after_hours_flow_summary": "Capture customer info and schedule callback",
+  "office_hours_flow_summary": "Transfer call to technician or front desk",
+  "questions_or_unknowns": [],
+  "notes": "Small electrical service business with 4 technicians"
+}
